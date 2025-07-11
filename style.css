@@ -225,3 +225,37 @@ text-align: center;
     margin: 0;
     font-size: 8px;
 }
+
+
+
+
+/* contact us section */
+
+.contact-container{
+    display: flex;
+    gap: 115px;
+    padding-bottom: 85px;
+    align-items: center;
+}
+
+.contact-title{
+    font-size: 97px;
+    margin: 0 auto;
+}
+
+.contact-form{
+    display: flex;
+    flex-direction: column;
+     font-family: "Inter", sans-serif;
+}
+
+.contact-form label{
+    font-size: 18px;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+
+.contact-form input{
+    padding: 20px;
+    width: 400px;
+}
